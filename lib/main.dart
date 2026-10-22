@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tamima_289/homepage.dart';
+import 'package:tamima_289/calculator_page.dart';
 
 void main(){
   runApp(const MyApp());
@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget{
   return MaterialApp( 
     theme: ThemeData.dark(),
     debugShowCheckedModeBanner: false,
-    home:Homepage());//full app a cng korle aikhane korbo
+    home: CalculatorPage(),
+    );
 
   }
 
